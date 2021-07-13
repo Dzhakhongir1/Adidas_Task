@@ -48,6 +48,8 @@ public class adidasStepDefinitions {
         }
 
 
+
+
     @Given("user is on card page")
     public void userIsOnCardPage() {
         BrowserUtils.sleep(1);

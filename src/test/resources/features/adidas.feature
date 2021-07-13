@@ -14,6 +14,10 @@ Feature: Customer navigation through product categories: Phones, Laptops and Mon
       And selects Dell i7 8gb
       Then user should be able to add it to the card
 
+
+
+
+
       Scenario: Delete item you just bought
         Given user is on card page
         When user click on Delete item
